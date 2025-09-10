@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profilepage</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../css/profilepage.css">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Playwrite+AU+QLD:wght@100..400&display=swap');
+</style>
+
+<body>
+
+  <div class="container"> 
+
+
+    <div class="edit_menu hidden ">
+      <input type="file" id="fileInput" accept="image/*">
+      <!-- <input type="text" placeholder="Name" id="p_name">
+      <textarea name="bio" id="p_bio" placeholder="Bio"></textarea> -->
+      <button id="change_button">Change</button>
+
+    </div>
+    <!--image section-->
+    <div class="pic">
+<img src="../../public/avatar.jpeg" id="currentPic" alt="" >
+    </div>
+    <!--Name section-->
+    <div class="name">
+    <span id="profilename">jigyasa yadav</span>
+    <button id="edit">edit<i class="fa-solid fa-pen"></i></button>
+    <br>
+    <span id="username">@jigyasa123</span>
+    </div>
+    <p id="moe">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidun</p>
+    <!--social activity section-->
+
+    <div class="social">
+      <div class="box">
+      <span id="foll_no" class="num">1.4k</span><br>
+      <span id="followers" class="data">followers</span><br>
+      </div>
+      <div class="box">
+
+      <span id="follw_no" class="num">200</span><br>
+      <span id="following" class="data">following</span><br>
+      </div>
+      <div class="box">
+      
+<span id="posts_no" class="num">90</span><br>
+<span id="posts" class="data">posts</span><br>
+      </div>
+</div>
+
+<button id="follow_button">Follow</button>
+
+  </div>
+  <script src="../javascript/profilepage.js">
+    
+    
+  </script>
+</body>
+</html>
